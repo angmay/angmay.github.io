@@ -1,0 +1,104 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 50%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("images/pictures/000006.JPG"); }
+.img2 { background-image: url("images/pictures/000018.JPG"); }
+.img3 { background-image: url("images/pictures/000024.JPG"); }
+.img4 { background-image: url("images/pictures/IMG_4957.JPG");}
+.img5 { background-image: url("images/pictures/IMG_6888.JPG"); }
+.img6 { background-image: url("images/pictures/IMG_7657.JPG"); }
+
+img {
+  height: 96px;
+  width: auto;
+  overflow: hidden; 
+}
+
+
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 10px solid #f1f1f1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 500px;
+  /*padding: 20px;*/
+  text-align: center;
+}
+
+
+b {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 100;
+  padding: 0;
+
+}
+
+ul {
+  list-style-type: none;
+  /* margin: 0;
+  padding: 0; */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+li {
+  float: left;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  font-weight: 50;
+  color: white;
+}
+
+
+#map,
+  body,
+  html {
+    height: 100%;
+  }
+  
+  .leaflet-popup-content {
+    text-align: center;
+  }
